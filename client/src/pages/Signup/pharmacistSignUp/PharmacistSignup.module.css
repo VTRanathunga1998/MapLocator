@@ -1,0 +1,43 @@
+.main-form-container {
+  position: relative;
+  display: flex;
+  height: calc(100vh - 56px);
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-container-tags {
+  flex-shrink: 1;
+}
+
+.map-container {
+  flex-shrink: 1;
+  margin: 15px;
+}
+
+.form-element {
+  margin: 15px;
+}
+
+.form-element button {
+  width: 100%;
+}
+
+.map-container {
+  width: 500px;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid red;
+  color: red;
+  border-radius: 4px;
+}
